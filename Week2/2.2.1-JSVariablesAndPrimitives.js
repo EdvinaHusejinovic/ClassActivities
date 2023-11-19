@@ -1,17 +1,17 @@
 // create a constant variable (const)
 const name = "Edvina";
 // create a variable that can be reassigned (let)
-let language = "Italian";
-// create three variables and assign them values of different data types (=)
 let age = 34;
-const whatif = true;
-const fancyPants = "cats pajamas";
+// create three variables and assign them values of different data types (=)
+let language = "Italian";
+let whatif = true;
+let fancyPants = "cats pajamas";
 // print the types of two variables that reference two different data types (typeof)
 // TIP: console.log() prints a value in the console/terminal
-console.log(typeof age);
+console.log(typeof whatif);
 console.log(typeof fancyPants);
 // change the value referenced by a variable (dynamic typing)
-language = 7;
+language = "Spanish";
 // print the type of the variable you just changed (typeof)
 console.log(typeof language);
 // create variables and give them values to complete the sentences that will print  below.
