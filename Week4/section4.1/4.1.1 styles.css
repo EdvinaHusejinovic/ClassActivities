@@ -1,0 +1,60 @@
+/* Class & ID Selectors */
+.header {
+  font-size: 24px;
+}
+
+#specialParagraph {
+  color: rgb(41, 202, 97);
+}
+
+/* Chain a Class Selector onto an Element Selector */
+h2.subtitle {
+  font-style: italic;
+}
+
+/* Group Two or More Selectors */
+h3, p {
+  text-decoration: underline;
+}
+
+/* Select All Child List Items from One of Your Lists */
+ul > li {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Select an Element That is a Sibling of Another Element */
+hr + ul {
+  margin-top: 50px;
+}
+
+/* Explore the Box Model */
+
+/* Universal Selector to Give All Elements a Border */
+* {
+  border: 2px solid rgb(168, 89, 160);
+}
+
+/* Add Padding and Margin on Some Elements */
+div,
+.flex  {
+  padding: 50px;
+  margin: 50px;
+}
+
+/* Add Padding and Margin Only on Certain Sides of Some Elements */
+p.padding-example {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+/* Using Pseudo-classes, Change Color When Someone Hovers Over It */
+a:hover {
+  color: rgb(56, 151, 79);
+}
+
+h1 {
+  text-align: center;
+}
