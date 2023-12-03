@@ -1,0 +1,21 @@
+
+* {
+    border: 1px solid plum;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(71, 55, 105)
+}
+
+h1, h2 {
+    color: red;
+}
+
+img {
+    border-radius: 30px;
+}
+
+
+
